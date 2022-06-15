@@ -1,9 +1,9 @@
 import asyncio
 import os
 import subprocess
-from concurrent.futures import ThreadPoolExecutor
-from queue import Queue, Empty
 import time
+from concurrent.futures import ThreadPoolExecutor
+from queue import Empty, Queue
 
 import discord
 from discord.ext import commands, tasks
