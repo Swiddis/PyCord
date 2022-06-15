@@ -24,7 +24,7 @@ print("Goodbye!")
 
 Into discord bot behavior:
 
-![](images/running_total.png)
+<image src="images/running_total.png" width="30%">
 
 Currently the project is in a very early stage, and struggles to run some programs. Some key caveats are:
 * Prompts must end with newlines, that is, `input("Enter a number:")` must be replaced with `input("Enter a number:\n")`.
@@ -34,10 +34,16 @@ Currently the project is in a very early stage, and struggles to run some progra
 
 ### Dependencies
 
+* [Git](https://git-scm.com/)
 * [Python 3](https://www.python.org/)
 
 ### Installing
 
+* Clone to this repository and navigate to the directory
+```sh
+git clone https://github.com/Swiddis/PyCord.git
+cd PyCord
+```
 * Create a new virtual environment named `venv`
 ```sh
 python -m venv venv
